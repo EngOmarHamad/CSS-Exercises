@@ -1,14 +1,17 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-body {
+.body {
+  min-height: 100vh;
+}
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  font-family: "Cario",sans-serif;
+  font-family: "Cario", sans-serif;
+  min-height: 80vh;
 }
 .box {
   margin: 10px;
@@ -17,11 +20,10 @@ body {
   text-align: center;
   font-weight: bold;
   background-color: #f0f0f0;
-  transition: .2s;
+  transition: 0.2s;
 }
-.box:hover{
+.box:hover {
   border-width: 20px;
-
 }
 .solid {
   border: 3px solid black;

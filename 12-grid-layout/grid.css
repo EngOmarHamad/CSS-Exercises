@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 150px);
-  gap: 10px;
+  gap: 30px;
   padding: 20px;
 }
 
@@ -14,7 +14,17 @@
   font-size: 24px;
   color: white;
   border-radius: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
+
+.box:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-size: 50px;
+  background-color: hsl(calc(30 * var(--i)), 80%, 55%);
+}
+
 
 .box:nth-child(n) {
   --i: 1;

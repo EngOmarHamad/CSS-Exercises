@@ -1,0 +1,33 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.back-to-index {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.back-to-index-btn {
+  display: inline-block;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-to-index-btn:hover {
+  background-color: #357abd;
+  transform: scale(1.05);
+}
