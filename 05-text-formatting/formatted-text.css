@@ -1,0 +1,10 @@
+/* text-style.css */
+.formatted-text {
+  font-family: Arial, sans-serif;
+  font-size:25px;
+  line-height: 1.6;
+  text-align: justify;
+  text-indent: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+}

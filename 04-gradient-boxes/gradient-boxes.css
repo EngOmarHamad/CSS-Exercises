@@ -1,0 +1,13 @@
+.box {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.color1 { background-color: #e0f7fa; }
+.color2 { background-color: #b2ebf2; }
+.color3 { background-color: #80deea; }
+.color4 { background-color: #4dd0e1; }
+.color5 { background-color: #26c6da; }
+.color6 { background-color: #0ca2b6;}

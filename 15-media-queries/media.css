@@ -1,0 +1,25 @@
+p {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* الشاشات الصغيرة (أقل من 768px) */
+@media (max-width: 767px) {
+  p {
+    font-size: 20px;
+  }
+}
+
+/* الشاشات المتوسطة (بين 768px و 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  p {
+    font-size: 30px;
+  }
+}
+
+/* الشاشات الكبيرة (أكثر من 1024px) */
+@media (min-width: 1025px) {
+  p {
+    font-size: 50px;
+  }
+}
